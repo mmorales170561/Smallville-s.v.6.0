@@ -1,2 +1,8 @@
-
+# .gitignore
 .streamlit/secrets.toml
+.env
+data/raw/
+data/processed/
+data/logs/
+__pycache__/
+.venv/
