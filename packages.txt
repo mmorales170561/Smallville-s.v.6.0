@@ -1,0 +1,5 @@
+nmap
+# Add other system-level tools if needed (e.g., ffuf, hydra)
+# Note: Streamlit Cloud's environment is limited; 
+# some heavy security binaries may not be pre-installed 
+# or installable via packages.txt.
