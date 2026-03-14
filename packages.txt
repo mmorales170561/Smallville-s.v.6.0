@@ -1,5 +1,4 @@
 nmap
 ffuf
 hydra
-subfinder
-nuclei
+
