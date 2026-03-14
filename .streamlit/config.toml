@@ -1,1 +1,17 @@
 
+# This file configures how the Streamlit app behaves in the browser.
+
+[theme]
+primaryColor = "#00FF41"      # Classic "Matrix" Green for that hacker aesthetic
+backgroundColor = "#000000"    # Black background
+secondaryBackgroundColor = "#1A1A1A"
+textColor = "#FFFFFF"
+font = "monospace"            # Ensures a terminal-like feel for your output
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false      # Keep your deployment footprints minimal
