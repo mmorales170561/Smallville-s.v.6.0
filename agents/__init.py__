@@ -1,1 +1,14 @@
 
+# agents/__init__.py
+
+# By importing these here, you can call them as 
+# "from agents import run_recon" instead of "from agents.recon import run_recon"
+from .recon import run_nmap
+from .exploit import run_exploit_module
+from .decision_engine import run_orchestrator
+
+# Optional: define a version or package-wide constant
+__version__ = "6.0.0"
+
+# Optional: Initialize a shared log or registry
+# print("Smallville Agent Module Initialized.")
