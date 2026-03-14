@@ -1,1 +1,15 @@
+# UI Framework
+streamlit>=1.42.0
 
+# Data Management & Processing
+pandas
+requests
+
+# Reconnaissance & Security Tools
+python-nmap
+# If you plan to add specific exploit modules later, add them here:
+# scapy
+# paramiko
+
+# Note: Do not include built-in Python libraries like 'json', 
+# 'os', 'subprocess', or 'threading'. They are included in Python itself.
